@@ -4,6 +4,10 @@ export const APP_LIST = {
     "facebook messenger": {pkgName: "com.facebook.orca", urlScheme: "fb-messenger", urlParams: "user-thread/{user-id}"}, // fa: facebook
     "skype": {pkgName: "com.skype.raider", urlScheme: "skype", urlParams: "echo123?call"}, // fa
     "wechat": {pkgName: "com.tencent.mm", urlScheme: "weixin", urlParams: "dl/chat"}, // fa
+    "qq": {pkgName: "com.tencent.mobileqq", urlScheme: "mqq", urlParams: ""}, // fa
+    "mobileqqi": {pkgName: "com.tencent.mobileqqi", urlScheme: "mqqiapi", urlParams: ""}, // fa
+    "qqlite": {pkgName: "com.tencent.qqlite", urlScheme: "mqq", urlParams: ""}, // fa
+    "weibo": {pkgName: "com.sina.weibo", urlScheme: "sinaweibo", urlParams: ""}, // fa
     "snapchat": {pkgName: "com.snapchat.android", urlScheme: "snapchat", urlParams: "?u=foo"}, // fa
     "twitter": {pkgName: "com.twitter.android", urlScheme: "twitter", urlParams: "messages"}, // fa
     "youtube": {pkgName: "com.google.android.youtube", urlScheme: "youtube", urlParams: "watch?v=dQw4w9WgXcQ"}, // fa
