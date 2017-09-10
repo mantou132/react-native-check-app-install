@@ -3,11 +3,19 @@ export const APP_LIST = {
     "facebook": {pkgName: "com.facebook.katana", urlScheme: "fb", urlParams: "requests"}, // fa: facebook-official
     "facebook messenger": {pkgName: "com.facebook.orca", urlScheme: "fb-messenger", urlParams: "user-thread/{user-id}"}, // fa: facebook
     "skype": {pkgName: "com.skype.raider", urlScheme: "skype", urlParams: "echo123?call"}, // fa
+    // china app https://www.zybuluo.com/jean/note/286981
     "wechat": {pkgName: "com.tencent.mm", urlScheme: "weixin", urlParams: "dl/chat"}, // fa
     "qq": {pkgName: "com.tencent.mobileqq", urlScheme: "mqq", urlParams: ""}, // fa
     "mobileqqi": {pkgName: "com.tencent.mobileqqi", urlScheme: "mqqiapi", urlParams: ""}, // fa
     "qqlite": {pkgName: "com.tencent.qqlite", urlScheme: "mqq", urlParams: ""}, // fa
     "weibo": {pkgName: "com.sina.weibo", urlScheme: "sinaweibo", urlParams: ""}, // fa
+    "alipay": {pkgName: "com.eg.android.AlipayGphone", urlScheme: "alipay", urlParams: ""}, // fa
+    "alipay hk": {pkgName: "hk.alipay.wallet", urlScheme: "alipay", urlParams: ""}, // fa
+    "taobao": {pkgName: "com.taobao.taobao", urlScheme: "taobao", urlParams: ""}, // fa
+    "tmall": {pkgName: "com.tmall.mobile.pad", urlScheme: "tmall", urlParams: ""}, // fa
+    "jd": {pkgName: "com.jingdong.app.mall", urlScheme: "openapp.jdmoble", urlParams: ""}, // fa
+    "meituan": {pkgName: "com.sankuai.meituan", urlScheme: "imeituan", urlParams: ""}, // fa
+    "eleme": {pkgName: "me.ele", urlScheme: "eleme", urlParams: ""}, // fa
     "snapchat": {pkgName: "com.snapchat.android", urlScheme: "snapchat", urlParams: "?u=foo"}, // fa
     "twitter": {pkgName: "com.twitter.android", urlScheme: "twitter", urlParams: "messages"}, // fa
     "youtube": {pkgName: "com.google.android.youtube", urlScheme: "youtube", urlParams: "watch?v=dQw4w9WgXcQ"}, // fa
